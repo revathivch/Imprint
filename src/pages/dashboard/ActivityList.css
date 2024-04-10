@@ -1,0 +1,34 @@
+/* .activity-list {
+    margin-bottom: 20px;
+}
+
+.activity-list h2 {
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+margin-bottom: 10px;
+} */
+
+
+.activity-list {
+margin-top: 20px;
+}
+
+.activity-list h2 {
+margin-bottom: 10px;
+}
+
+.activity-list table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.activity-list th,
+.activity-list td {
+border-bottom: 1px solid #ccc;
+padding: 10px;
+text-align: left;
+}
+
+.activity-list th {
+font-weight: bold;
+}
