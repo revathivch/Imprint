@@ -1,0 +1,34 @@
+/* .activity-item {
+display: flex;
+justify-content: space-between;
+background: #fff;
+padding: 15px;
+border-radius: 5px;
+margin-bottom: 10px;
+align-items: center;
+}
+
+.activity-item p {
+margin: 0;
+padding: 0 10px;
+flex: 1; 
+}
+
+.activity-item p:first-child {
+flex: 0.5;
+} */
+
+
+.activity-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .activity-item td {
+    padding: 10px;
+  }
+  
+  .field-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
