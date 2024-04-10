@@ -13,7 +13,7 @@ const ActivityList = ({ activityItems }) => {
               <th>Phone</th>
               <th>Email</th>
               <th>Amount</th>
-              {/* Add more headers as needed */}
+              
             </tr>
           </thead>
           <tbody>

@@ -5,8 +5,7 @@ import './Dashboard.css';
 
 
 const Dashboard = () => {
-  // Generate a random list of activities, let's say 10 for this example
-  // Hardcoded list of activities
+  
   const activityItems = [
     {
       id: 1,
@@ -32,7 +31,7 @@ const Dashboard = () => {
       amount: 0,
       type: 'Follower'
     }
-    // Add more activity items as needed...
+  
   ];
 
   return (

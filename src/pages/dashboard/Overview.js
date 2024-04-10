@@ -2,7 +2,7 @@ import React from 'react';
 import './Overview.css';
 
 const Overview = () => {
-  // You'd typically fetch these values from a server
+  
   const raisedThisMonth = 5405;
   const availablePayout = 2218;
   const newSupporters = 72;

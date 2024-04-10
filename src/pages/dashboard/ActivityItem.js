@@ -8,7 +8,7 @@ const ActivityItem = ({ activity }) => {
       <td> {activity.phone}</td> 
       <td> {activity.email}</td> 
       <td> {activity.amount}</td> 
-      {/* Render icons and additional info based on activity.type */}
+     
     </tr>
   );
 };
