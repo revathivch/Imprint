@@ -47,7 +47,14 @@ text-align: left;
 
 .overview h2 {
 margin-bottom: 10px;
-font-size: 1em; 
+font-size: 0.80rem; 
 color: #9e4ef7; 
-font-weight: normal; 
+font-weight: bold; 
 }
+
+.overview p {
+    font-weight: bold; 
+    font-size: 1.25rem;
+}
+
+  

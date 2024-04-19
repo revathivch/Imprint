@@ -31,4 +31,34 @@ flex: 0.5;
     font-weight: bold;
     margin-right: 5px;
   }
+
+  .name-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+.name-info .name {
+  font-weight: bold;
+  color: "#3A3B3C";
+  padding-bottom: 2px;
+}
+
+.name-info .title {
+  font-size: 0.65rem;
+  color: "#666";
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between; /* This will place the items on opposite ends */
+  align-items: center;
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.name-container img {
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%;
+  margin-right: 12px; 
+}
   

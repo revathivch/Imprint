@@ -2,11 +2,30 @@
 font-family: 'Arial', sans-serif;
 color: #333;
 padding: 20px;
+flex-grow: 1;
 }
 
-.dashboard h1 {
+.dashboard h2 {
 border-bottom: 1px solid #ccc;
 padding-bottom: 10px;
 margin-bottom: 20px;
 }
+
+
+.dashboard-header {
+display: flex;
+align-items: center;
+justify-content: space-between; /* Adjust this as needed */
+}
+
+.dashboard-search {
+padding: 8px;
+margin-left: 16px; /* Add space between the title and the search bar */
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 13px;
+}
+
+
+  
   

@@ -5,7 +5,7 @@ import './ActivityList.css';
 const ActivityList = ({ activityItems }) => {
     return (
       <div className='activity-list'>
-        <h2>Activity</h2>
+        <h3>Activity</h3>
         <table>
           <thead>
             <tr>
@@ -13,7 +13,8 @@ const ActivityList = ({ activityItems }) => {
               <th>Phone</th>
               <th>Email</th>
               <th>Amount</th>
-              
+              <th>Badge</th>
+              <th>Total</th>
             </tr>
           </thead>
           <tbody>

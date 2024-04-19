@@ -1,0 +1,98 @@
+/* .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #F0F2F5;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: auto; 
+    
+  } 
+   */
+
+   .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: #F0F2F5;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar-item {
+    margin-bottom: 5px;
+  }
+  
+  .sidebar-button {
+    background: none;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    color: #3A3B3C;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar-user-info {
+    display: grid;
+    
+  }
+  .sidebar-button svg {
+    margin-right: 10px; 
+    width: 15px; 
+    height: 15px; 
+  }
+  
+  .sidebar-button:hover,
+  .sidebar-button.active {
+    background-color: #DDE1E6;
+  }
+
+  
+  .sidebar-user {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto; /* Push the user section to the bottom */
+    background-color: #f3f4f6; /* Light gray background */
+    border-top: 1px solid #e1e4e8; /* Light border for the top */
+  }
+  
+  .sidebar-user-image {
+    width: 48px; /* Adjust as needed */
+    height: 48px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-right: 12px; /* Space between image and text */
+  }
+  
+  .sidebar-user-info {
+    flex-grow: 1;
+  }
+  
+  .sidebar-user-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px; /* Space between name and email */
+  }
+  
+  .sidebar-user-email {
+    font-size: 12px;
+    color: #666;
+  }
+
+  
+  .sidebar-spacer {
+    flex-grow: 1;
+  }
+  
+  .sidebar-user {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f3f4f6; /* Light gray background */
+    border-top: 1px solid #e1e4e8; /* Light border for the top */
+  }
